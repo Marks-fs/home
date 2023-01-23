@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: rgb(109, 66, 140);
+    font-family: sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    background-color: rgb(229, 225, 233);
+}
+
+.container {
+    width: 380px; /* tamanho dos botões para os lados */
+    text-align: center;
+    margin-top: 41px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header img {
+    width: 100%; /* deixa responsivo para qualquer dispoosito */
+    margin-top: 15px;
+    width: 312px;
+    border-radius: 50%;
+    border: 6px solid rgb(109, 66, 140);
+    
+}
+
+li {
+    text-transform: uppercase; /* coloca todas letras em maiúscula */
+    margin-bottom: 15px; /* distância de um botão para o outro */
+    list-style: none; /* remove o ponto do topico */
+    border: 4px solid rgb(109, 66, 140);
+    border-radius: 50px;
+}
+
+li:hover {
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+ul {
+    padding: 15px;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none; /* remover traço embaixo do nome, traço do link */
+    background-color: rgb(229, 225, 233);
+    padding: 15px; /* tamanho da borda do botão */
+    display: block; /* aumenta o tamnho dos botões */
+    border-radius: 50px; /* borda arredondada */
+}
+
+footer p{
+    text-align: center;
+}
+
+ul img{ /* tamanho das imagens dentro dos botões */
+    width: 40px;
+    height: 40px;
+    vertical-align: middle; /* deixa os icones alinhado com o nome */
+}
